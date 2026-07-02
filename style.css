@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('./fonts/coolveticaWeb/Coolvetica-Regular.woff2') format('woff2'),
+        url('./fonts/coolveticaWeb/Coolvetica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Coolvetica", sans-serif;
 }

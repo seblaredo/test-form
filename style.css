@@ -63,7 +63,7 @@ body {
 section>div{
     display: flex;
     flex-wrap: wrap;
-    padding-right: 200px;
+    padding-right: calc(75vw - 632px);
     column-gap:50px;
     row-gap: 20px;
     padding-left: 50px;
@@ -75,6 +75,8 @@ section>div{
     background-color: rgb(255, 240, 243);
     padding-top: 10px;
     box-shadow: 0 5px 10px rgb(185, 180, 180);
+    min-height: 30vh;
+    align-content: center;
 }
 
 .element{
@@ -84,6 +86,7 @@ section>div{
 }
 
 button{
+    margin-top: 20px;
     height: 2rem;
     width: 10rem;
     border-radius: 5px;
@@ -108,4 +111,8 @@ a {
 
 a:visited {
     color: rgb(150, 73, 86);
+}
+
+form+p{
+    font-size: 1rem;
 }
